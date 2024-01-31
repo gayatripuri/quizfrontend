@@ -1,7 +1,7 @@
 // CongratsPopup.js
 import React, {useState} from 'react';
 import styles from './CongratsPopup.module.css';
-const baseUrl = process.env.REACT_APP_BASE_URL || '';
+
 
 const CongratsPopup = ({ quizLink }) => {
 
@@ -23,7 +23,7 @@ const [showCopyLink, setShowCopyLink] = useState(false);
       <p>Congrats! Your Quiz is Published!</p>
      
       <div className={styles.copyData}>
-        <p>{baseUrl}/quiz/{quizLink}</p><button  onClick={handleCopyLink(`${baseUrl}/quiz/${quizLink}`)}>Share</button>
+        <p>https://quiziee.vercel.app/quiz/{quizLink}</p><button  onClick={handleCopyLink(`https://quiziee.vercel.app/quiz/${quizLink}`)}>Share</button>
       </div>
       {showCopyLink && (
           <div className={styles.copiedBox}>
