@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.optionForm {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2.5rem;
+  width: fit-content;
+  border: none;
+}
+
+.optionTypeSection {
+  display: flex;
+  margin-top: 1.7rem;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard_option_input {
+  border: none;
+  border-radius: 0.625rem;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 0.6rem;
+  margin-left: 0.4rem;
+  padding: 0.5rem;
+}
+.dashboard_timer_btn {
+  border: none;
+  border-radius: 0.625rem;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+  width: 4.5rem;
+}
+.closeButton {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #ff0000; /* Red color */
+}
+
+.optionButtonsContainer {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.addOptionBtn {
+  cursor: pointer;
+  font-size: 20px;
+  color: #007bff; /* Blue color */
+  margin-left: 10px;
+}
+
+.circularBtnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circularBtn {
+  width: 30px;
+  height: 30px;
+  background-color: #007bff; /* Blue color */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* White color */
+  cursor: pointer;
+}
+
+.optionContainer {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.optiontype_btn {
+  margin-left: 2rem;
+}
+.optiontypeBtn {
+  margin-left: 1.4rem;
+}
+
+.btn_container {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+}
+
+.cancel_btn {
+  background: #fff;
+  border: none;
+  border-radius: 0.625rem;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  flex: 1 1;
+  padding: 0.5rem;
+  transition-duration: 0.4s;
+}
+
+.confirm_create_quiz_btn {
+  background: #60b84b;
+  border: none;
+  border-radius: 0.625rem;
+  color: #fff;
+  flex: 1 1;
+  padding: 0.5rem;
+  transition-duration: 0.4s;
+}
+
+.dashboard_pollquestion {
+  background: #fff;
+  border: none;
+  border-radius: 0.625rem;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+  font-size: 1.2rem;
+  padding: 0.45rem 0.7rem;
+  width: 90%;
+}
+
+.timerSection {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.timerSection label {
+  margin-right: 10px;
+}
+
+.timerOptionsContainer {
+  display: flex;
+  margin-left: 12rem;
+}
+
+.timerSection button {
+  margin-right: 10px;
+}
+
+.radioButtonsContainer {
+  margin-top: 2rem;
+}

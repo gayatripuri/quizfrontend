@@ -1,0 +1,99 @@
+/* CreateQuizPopup.module.css */
+.createQuizPopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);/* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Set a high z-index to overlay other elements */
+  }
+  
+  .createQuizPopup > div {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 65%; /* Set the desired width */
+  max-width: 500px;
+ 
+  }
+  
+  .closeBtn {
+    margin-top: 10px;
+  }
+  .inputbox{
+  background: #fff;
+    border: none;
+    width: 80%;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.15);
+    font-size: 1rem;
+    margin-top: 2rem;
+   margin-left: 1.7rem;
+    padding: 1rem;}
+
+.quizTypeSection{
+display: flex;
+margin-top: 1.5rem;
+   justify-content: space-evenly;
+}
+.quizTypeSection button{
+    width: 7rem;
+    height: 1.7rem;
+}
+.quizTypeBtn{
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.15);
+    background-color: #fff;
+    border-radius: 0.625rem;
+    border: none;
+    font-size: 1rem;
+  
+    transition: none;
+}
+.quizTypeBtn:active {
+    background: #4CAF50; /* Green color when clicked */
+    color: #fff;
+  }
+  
+  
+  .quizTypeBtn.activeBtn {
+    background: #4CAF50; /* Green color for the active button */
+    color: #fff;
+    transition: none;
+  }
+
+  
+  
+    .buttonsSection{
+        display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    
+    }
+   
+    .cancelBtn{
+        background: #fff;
+        border: none;
+        border-radius: 0.625rem;
+        box-shadow: 0 0 15px 0 rgba(0,0,0,.25);
+        cursor: pointer;
+       
+        padding: 0.5rem;
+        transition-duration: .4s;
+        flex: 0.4;
+    }
+    .continueBtn{
+        background: #60b84b;
+        border: none;
+        border-radius: 0.625rem;
+        color: #fff;
+        cursor: pointer;
+       
+        padding: 0.5rem;
+        transition-duration: .4s;
+        flex: 0.4;
+    }
