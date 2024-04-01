@@ -1,3 +1,10 @@
+Developed a dynamic React front-end and robust Expressjs API for comprehensive quiz functionality.
+
+Enabled secure user authentication, registration, and quiz management, emphasizing web security and user-centric design.
+
+Added timer feature into quiz questions, enhancing engagement and providing dynamic quiz experience.
+
+Emphasized data security, added analytics for quiz performance, and focused on error handling and security.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
